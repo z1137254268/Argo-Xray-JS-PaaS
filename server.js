@@ -1,7 +1,7 @@
 const app_url = "https://eggplant-glitter-spinach.glitch.me";
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 8080;
 var exec = require("child_process").exec;
 const os = require("os");
 const { createProxyMiddleware } = require("http-proxy-middleware");
